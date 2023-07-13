@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+ <!-- Font Awesome Library -->
+ <link rel="stylesheet" href="css/all.min.css">
+ <!-- Render All Elements Normally -->
+ <link rel="stylesheet" href="css/normaliz.css">
+ <!--main file css-->
+ <link rel="stylesheet" href="css/portfolio.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Ubuntu&family=Work+Sans:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--start page one-->
+  <div class="page">
+<!--start sidebar-->
+      <div class="sidebar"> 
+      <h3>Mazen</h3>  
+      <ul>
+        <li>
+          <a  href="index.html">
+            <i class="fa-solid fa-chart-bar fa-fw"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li>
+          <a class="active" href="settings.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Settings</span>
+          </a>
+        </li>
+        <li>
+          <a  href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li>
+          <a  href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a  href="courses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Courses</span>
+          </a>
+        </li>
+        <li>
+          <a  href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+      </div>
+<!-- end sidebar-->
+      <div class="content">
+<!--start head-->
+        <div class="head">
+          <div class="search">
+            <input type="search" placeholder="search" />
+          </div>
+          <div class="icons">
+            <span class="notification">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img decoding="async" src="image/mmaaz.jpg" alt="" />
+          </div>
+        </div>
+<!--end head-->
+        <h1 class="Dashboard" > Settings </h1>
+<!--start setting page-->
+        <div class="settings-page">
+<!-- Start Settings Box Site -->
+          <div class="container-Site">
+            <h2 >Site Control</h2>
+            <p >Control The Website If There Is Maintenance</p>
+            <div class="box">
+                <div class="text">
+                <span>Website Control</span>
+                <p>Open/Close Website And Type The Reason</p>
+                </div>
+                <div class="check">
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked>
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+            </div>
+            <textarea class="close-message" placeholder="Close Message Contant"></textarea>
+          </div>
+<!-- End Settings Box Site -->
+<!-- Start Settings Box general-->
+       <div class="container-Genral">
+         <h2 >Genral Info</h2>
+        <p >General Information About Your Account</p>
+        <div class="box-general">
+         <label for="first">First Name</label>
+         <input type="text" id="first" placeholder="First name">
+       </div>
+       <div class="box-general">
+        <label for="first">Last Name</label>
+        <input type="text" id="first" placeholder="Last Name">
+      </div>
+      <div class="box-email">
+        <label class="email" for="first">Email</label>
+        <input type="email" id="email" 
+        value="o@nn.sa" disabled>
+        <a href="#">Change</a>
+      </div>
+    </div>
+<!-- End Settings Box Genral --> 
+<!-- Start Settings Box Security-->
+        <div class="container-Security">
+          <h2>Security Info</h2>
+          <p>Security Information About Your Account</p>
+          <div class="sec-box">
+            <div class="box-password">
+              <span>Password</span>
+              <p>Last Change On 25/10/2021</p>
+            </div>
+            <a class="button" href="#">Change</a>
+          </div>
+          <div class="sec-box">
+            <div class="box-factor">
+              <span>Two-Factor Authentication</span>
+              <p>Enable/Disable The Feature</p>
+            </div>
+            <label>
+              <input class="toggle-checkbox" type="checkbox" checked />
+              <div class="toggle-switch"></div>
+            </label>
+          </div>
+          <div class="sec-box">
+            <div class="box-devices">
+              <span>Devices</span>
+              <p>Check The Login Devices List</p>
+            </div>
+            <a class="bg-eee c-black btn-shape" href="#">Devices</a>
+          </div>
+        </div>
+<!-- End Settings Box Security-->
+<!-- Start Settings Box social-->
+        <div class="container-social">
+          <h2>Social Info</h2>
+          <p>Social Media Information</p>
+          <div class="boxes-social">
+            <i class="fa-brands fa-twitter"></i>
+            <input  type="text" placeholder="Twitter Username" />
+          </div>
+          <div class="boxes-social">
+            <i class="fa-brands fa-facebook-f"></i>
+            <input  type="text" placeholder="Facebook Username" />
+          </div>
+          <div class="boxes-social">
+            <i class="fa-brands fa-linkedin"></i>
+            <input  type="text" placeholder="Linkedin Username" />
+          </div>
+          <div class="last-box">
+            <i class="fa-brands fa-youtube"></i>
+            <input  type="text" placeholder="Youtube Username" />
+          </div>
+        </div>
+<!-- End Settings Box social-->
+<!-- Start Settings Box widgets-->
+       <div class="container-widgets">
+  <h2>Widgets Control</h2>
+  <p>Show/Hide Widgets</p>
+  <div class="control-box">
+    <input type="checkbox" id="one" checked />
+    <label for="one">Quick Draft</label>
+  </div>
+  <div class="control-box">
+    <input type="checkbox" id="two" checked />
+    <label for="two">Yearly Targets</label>
+  </div>
+  <div class="control-box">
+    <input type="checkbox" id="three" checked />
+    <label for="three">Tickets Statistics</label>
+  </div>
+  <div class="control-box">
+    <input type="checkbox" id="four" checked />
+    <label for="four">Latest News</label>
+  </div>
+  <div class="control-box">
+    <input type="checkbox" id="five" />
+    <label for="five">Latest Tasks</label>
+  </div>
+  <div class="control-box">
+    <input type="checkbox" id="six" checked />
+    <label for="six">Top Search Items</label>
+  </div>
+       </div>
+<!-- End Settings Box widgets--> 
+<!-- Start Settings Box backup -->
+<div class="container-backup">
+  <h2>Backup Manager</h2>
+  <p>Control Backup Time And Location</p>
+  <div class="date">
+    <input type="radio" name="time" id="daily" checked />
+    <label for="daily">Daily</label>
+  </div>
+  <div class="date">
+    <input type="radio" name="time" id="weekly" />
+    <label for="weekly">Weekly</label>
+  </div>
+  <div class="date">
+    <input type="radio" name="time" id="monthly" />
+    <label for="monthly">Monthly</label>
+  </div>
+  <div class="servers">
+    <input type="radio" name="servers" id="server-one" />
+    <div class="server">
+      <label for="server-one">
+        <i class="fa-solid fa-server"></i>
+        Megaman
+      </label>
+    </div>
+    <input type="radio" name="servers" id="server-two" checked />
+    <div class="server">
+      <label for="server-two">
+        <i class="fa-solid fa-server"></i>
+        Zero
+      </label>
+    </div>
+    <input type="radio" name="servers" id="server-three" />
+    <div class="server">
+      <label for="server-three">
+        <i class="fa-solid fa-server"></i>
+        Sigma
+      </label>
+    </div>
+  </div>
+</div>
+<!-- End Settings Box backup-->
+     </div>
+<!-- End Settings page -->      
+   </div>
+ </div>
+<!--end page two-->
+</body>
+</html>
